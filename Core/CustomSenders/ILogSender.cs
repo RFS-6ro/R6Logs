@@ -3,14 +3,15 @@
 // Copyright (c) 2022-2022 RFS_6ro <rfs6ro@gmail.com>
 // ----------------------------------------------------------------------------
 
-#if R6_LOGS_ENABLED
+using System;
+using R6Logs.Core.Basic;
 
 namespace R6Logs.Core.CustomSenders
 {
-    public interface ILogSender
+    public interface ILogSender : IDisposable
     {
-        bool Send();
+        string Name { get; }
+        
+        bool Send(Log formattedLog);
     }
 }
-
-#endif

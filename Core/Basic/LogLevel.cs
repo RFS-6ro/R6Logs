@@ -3,9 +3,7 @@
 // Copyright (c) 2022-2022 RFS_6ro <rfs6ro@gmail.com>
 // ----------------------------------------------------------------------------
 
-#if R6_LOGS_ENABLED
-
-namespace R6Logs.Core
+namespace R6Logs.Core.Basic
 {
     public enum LogLevel : byte
     {
@@ -40,5 +38,3 @@ namespace R6Logs.Core
         Critical  = 6,
     }
 }
-
-#endif

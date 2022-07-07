@@ -3,10 +3,10 @@
 // Copyright (c) 2022-2022 RFS_6ro <rfs6ro@gmail.com>
 // ----------------------------------------------------------------------------
 
-#if R6_LOGS_ENABLED
+#if !R6_LOGS_DISABLED
 
 using System.Collections.Generic;
-using R6Logs.Core;
+using R6Logs.Core.Basic;
 
 namespace R6Logs
 {

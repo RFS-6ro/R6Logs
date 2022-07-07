@@ -3,13 +3,20 @@
 // Copyright (c) 2022-2022 RFS_6ro <rfs6ro@gmail.com>
 // ----------------------------------------------------------------------------
 
-#if R6_LOGS_ENABLED
-
-namespace R6Logs.Core
+namespace R6Logs.Core.Basic
 {
     public class LogDataPair
     {
+        private string _pairName;
+        
+        public LogDataPair(string pairName)
+        {
+            _pairName = pairName;
+        }
+
+        public override string ToString()
+        {
+            return _pairName;
+        }
     }
 }
-
-#endif

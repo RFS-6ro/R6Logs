@@ -5,9 +5,7 @@
 
 using System;
 
-#if R6_LOGS_ENABLED
-
-namespace R6Logs
+namespace R6Logs.Core.Basic
 {
     [Flags]
     public enum LogOptions
@@ -27,5 +25,3 @@ namespace R6Logs
         IncludeStackTrace = 0x03
     }
 }
-
-#endif
