@@ -9,7 +9,7 @@ Currently R6Logs simplify logging and easy to disable by `#define R6_LOGS_DISABL
 
 Next versions will provide:
 1. Console and native logs
-2. External database usage example
+2. External database usage example (ex: kibana, opensearch, bugsnag)
 3. More complex LogHistory usage
 4. Compatible with other R6 series solutions
 
